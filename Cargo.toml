@@ -3,7 +3,7 @@ name = "minicoro-awaiters"
 version = "0.1.0"
 edition = "2024"
 license = "MPL-2.0"
-decsription = "Awaiters for minocoro"
+description = "Awaiters for minocoro"
 
 [dependencies]
 atomic-waker = "^1.1.2"
