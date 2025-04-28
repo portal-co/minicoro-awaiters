@@ -1,0 +1,9 @@
+[package]
+name = "minicoro-awaiters"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+atomic-waker = "1.1.2"
+awaiter-trait = "^0.2.7"
+minicoroutine = { version = "0.1.3" }
