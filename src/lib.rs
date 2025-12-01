@@ -44,6 +44,7 @@
 
 #![no_std]
 extern crate alloc;
+use core::future::Future;
 use core::mem::MaybeUninit;
 use core::task::Context;
 use core::task::Poll;
