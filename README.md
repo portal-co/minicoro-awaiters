@@ -89,10 +89,11 @@ The crate bridges Rust's cooperative async/await system with minicoro's stackful
 This project is licensed under the [Mozilla Public License 2.0](https://opensource.org/licenses/MPL-2.0).
 
 ## Goals
-- [ ] Add project goals
+- [ ] Bridge `minicoroutine` with `awaiter-trait`
+- [ ] Provide async waker support
 
 ## Progress
-- [ ] Initial setup
+- [ ] Crate initialized
 
 ---
 *AI assisted*
