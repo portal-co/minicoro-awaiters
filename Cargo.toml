@@ -1,11 +1,11 @@
 [package]
 name = "minicoro-awaiters"
-version = "0.1.0"
+version = "0.2.0-alpha.1"
 edition = "2024"
 license = "MPL-2.0"
 description = "Awaiters for minocoro"
 
 [dependencies]
 atomic-waker = "^1.1.2"
-awaiter-trait = "^0.2.7"
+awaiter-trait = { version = "^0.3.0-alpha.1", git = "https://github.com/portal-co/awaiter-trait.git" }
 minicoroutine = { version = "0.1.3" }

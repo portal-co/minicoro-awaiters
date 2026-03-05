@@ -10,9 +10,8 @@ checksum = "1505bd5d3d116872e7271a6d4e16d81d0c8570876c8de68093a09ac269d8aac0"
 
 [[package]]
 name = "awaiter-trait"
-version = "0.2.8"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "76a2faaa1781413f3002fc3b6dfb0a9a89772c147c8e8b578d3a754d5e0b42ab"
+version = "0.3.0-alpha.1"
+source = "git+https://github.com/portal-co/awaiter-trait.git#76b033a8caa466ba253796e9f3e1fe932fd6c2c0"
 
 [[package]]
 name = "cc"
@@ -32,7 +31,7 @@ checksum = "5baebc0774151f905a1a2cc41989300b1e6fbb29aff0ceffa1064fdd3088d582"
 
 [[package]]
 name = "minicoro-awaiters"
-version = "0.1.0"
+version = "0.2.0-alpha.1"
 dependencies = [
  "atomic-waker",
  "awaiter-trait",
